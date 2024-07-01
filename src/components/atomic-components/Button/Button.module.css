@@ -1,0 +1,7 @@
+.button {
+    @apply flex px-4 py-2.5 text-sm text-primary-DEFAUTL font-semibold leading-md rounded bg-blue hover:bg-hover duration-200 ease-linear transition-colors focus:bg-focus focus:outline-none disabled:bg-accent-disable;
+}
+
+.icon-only {
+    @apply p-2;
+}

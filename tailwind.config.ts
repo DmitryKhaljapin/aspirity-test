@@ -93,6 +93,7 @@ const config: Config = {
     },
     extend: {
       spacing: {
+        '4.5': '18px',
         '7.5': '30px',
       },
       backgroundImage: {

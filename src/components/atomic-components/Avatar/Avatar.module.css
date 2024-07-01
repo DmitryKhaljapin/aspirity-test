@@ -1,0 +1,7 @@
+.avatar {
+    @apply inline-block w-auto h-auto;
+}
+
+.photo {
+    @apply rounded-full;
+}

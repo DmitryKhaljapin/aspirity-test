@@ -1,7 +1,11 @@
 .avatar {
-    @apply inline-block w-auto h-auto;
+    @apply relative inline-block w-auto h-auto cursor-pointer;
 }
 
 .photo {
     @apply rounded-full;
+}
+
+.blur {
+    @apply absolute w-full h-full rounded-full flex items-center justify-center bg-transparent-black
 }

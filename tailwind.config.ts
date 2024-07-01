@@ -28,7 +28,8 @@ const config: Config = {
       'dark-blue': '#001A72',
       'orange': '#FA4616',
       'white': '#FFFFFF',
-      'black': '#101820', 
+      'black': '#101820',
+      'transparent-black': '#00000080', 
 
       'accent': {
         DEFAULT : '#0047BB',

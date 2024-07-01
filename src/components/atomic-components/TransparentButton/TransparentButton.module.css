@@ -1,0 +1,11 @@
+.button {
+    @apply inline-flex px-4 py-2.5 items-center justify-center text-tertiary font-semibold text-sm leading-md;
+}
+
+.active {
+    @apply border-b-2 border-b-accent border-solid text-primary-DEFAUTL
+}
+
+.passive {
+    @apply border-b-1 border-b-primary-pr border-solid pb-[11px] text-secondery
+}

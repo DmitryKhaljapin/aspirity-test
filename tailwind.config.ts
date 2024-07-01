@@ -37,6 +37,17 @@ const config: Config = {
     fontFamily: {
       'poppins': 'Poppins'
     },
+    fontSize: {
+      'sm': '14',
+      'md': '16px',
+      'lg': '20px',
+      'xl': '24px',
+      '2xl': '34px',
+      '3xl': '48px',
+      '4xl': '60px',
+      '5xl': '96px',
+
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

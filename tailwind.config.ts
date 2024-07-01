@@ -8,15 +8,21 @@ const config: Config = {
   ],
   theme: {
     colors: {
-      'primary': '#E1E3E6',
-      'primary-bg': '#141414',
-      'primary-br': '#363738',
+      'primary': {
+        DEFAUTL: '#E1E3E6',
+        'bg': '#141414',
+        'pr': '#363738'
+      },
+      
+      'secondery': {
+        DEFAULT: '#B0B1B6',
+        'bg': '#232324',
+      },
 
-      'secondery': '#B0B1B6',
-      'secondery-bg': '#232324',
-
-      'tertiary': '#76787A',
-      'tertiary-bg': '#202021',
+      'tertiary': {
+        DEFAULT: '#76787A',
+        'bg': '#202021'
+      },
 
       'blue': '#0047BB',
       'dark-blue': '#001A72',
@@ -27,6 +33,9 @@ const config: Config = {
       'accent': '#0047BB',
       'success': '#2E7D32',
       'error': '#D32F2F',
+    },
+    fontFamily: {
+      'poppins': 'Poppins'
     },
     extend: {
       backgroundImage: {

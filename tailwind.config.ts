@@ -30,7 +30,40 @@ const config: Config = {
       'white': '#FFFFFF',
       'black': '#101820', 
 
-      'accent': '#0047BB',
+      'accent': {
+        DEFAULT : '#0047BB',
+        'disable': '#424242',
+      },
+      'hover': {
+        DEFAULT: '#003182',
+        'transparent': {
+          DEFAULT: '#0047BB1A',
+          'contrast': '#FFFFFF'
+        },
+        'success': {
+          DEFAULT: '#1B5E20',
+          'transparent': '#2E7D321A'
+        },
+        'error': {
+          DEFAULT: '#C62828',
+          'transparent': '#D32F2F1A'
+        }
+      },
+      'focus': {
+        DEFAULT: '#4C7ECF',
+        'transparent': {
+          DEFAULT: '#0047BB80',
+          'contrast': '#FFFFFF',
+        },
+        'success': {
+          DEFAULT: '#6CA46F',
+          'transparent': '#2E7D3280'
+        },
+        'error': {
+          DEFAULT: '#E06D6D',
+          'transparent': '#D32F2F80',
+        }
+      },
       'success': '#2E7D32',
       'error': '#D32F2F',
     },
@@ -38,7 +71,7 @@ const config: Config = {
       'poppins': 'Poppins'
     },
     fontSize: {
-      'sm': '14',
+      'sm': '14px',
       'md': '16px',
       'lg': '20px',
       'xl': '24px',

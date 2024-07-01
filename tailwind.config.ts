@@ -46,7 +46,16 @@ const config: Config = {
       '3xl': '48px',
       '4xl': '60px',
       '5xl': '96px',
-
+    },
+    lineHeight: {
+      'sm': '16px',
+      'md': '20px',
+      'lg': '24px',
+      'xl': '32px',
+      '2xl': '36px',
+      '3xl': '56px',
+      '4xl': '72px',
+      '5xl': '112xp',
     },
     extend: {
       backgroundImage: {

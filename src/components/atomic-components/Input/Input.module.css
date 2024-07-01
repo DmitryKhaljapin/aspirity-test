@@ -1,0 +1,19 @@
+.label {
+    @apply relative flex items-center  bg-secondery-bg w-full h-10 duration-200 ease-linear transition-colors rounded border border-solid text-secondery border-primary-pr hover:border-primary-DEFAUTL active:border-accent;
+}
+
+.error {
+    @apply border-error
+}
+
+.success {
+    @apply border-success
+}
+
+.title {
+    @apply absolute -top-3 left-2 block px-1 bg-secondery-bg 
+}
+
+.input {
+    @apply block w-full h-full focus:outline-none rounded px-3.5 py-2 bg-secondery-bg;
+}

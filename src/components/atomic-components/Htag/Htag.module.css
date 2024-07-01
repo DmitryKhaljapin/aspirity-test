@@ -1,0 +1,7 @@
+.h4 {
+    @apply text-2xl leading-2xl text-primary-DEFAUTL;
+}
+
+.h5 {
+    @apply text-xl leading-xl text-primary-DEFAUTL;
+}

@@ -1,0 +1,3 @@
+.card {
+    @apply bg-secondery-bg rounded-xl p-7.5 ;
+}

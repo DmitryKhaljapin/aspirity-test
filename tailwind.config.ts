@@ -91,6 +91,9 @@ const config: Config = {
       '5xl': '112xp',
     },
     extend: {
+      spacing: {
+        '7.5': '30px',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

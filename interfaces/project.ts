@@ -1,10 +1,10 @@
 import { IEmployeeShort } from "./employee";
 
-export interface IProjec {
+export interface IProject {
     title: string;
     type: string;
-    responsibleEmployee: string;
+    responsibleEmployee: IEmployeeShort;
     team: IEmployeeShort[];
-    startData: Date;
-    endData: Date;
+    startDate: Date;
+    endDate: Date;
 }

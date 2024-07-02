@@ -1,5 +1,5 @@
 .header {
-    @apply grid grid-cols-header py-6 items-center;
+    @apply grid grid-cols-header py-6 items-center mb-2;
 }
 
 .logo {

@@ -1,9 +1,10 @@
 import { withLayout } from '@/layout/Layout/Layout';
-import { EmployeeProfile } from '@/components';
+import { ReturnButtonLine, EmployeeProfile } from '@/components';
 
 function Home() {
   return (
     <>
+      <ReturnButtonLine />
       <EmployeeProfile/>
     </>
   );

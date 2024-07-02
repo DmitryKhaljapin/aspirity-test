@@ -1,0 +1,7 @@
+.line {
+    @apply mb-2;
+}
+
+.title {
+    @apply uppercase ml-2;
+}

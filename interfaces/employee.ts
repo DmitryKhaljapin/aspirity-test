@@ -6,7 +6,7 @@ export interface IEmployeeShort {
 }
 
 export interface IEmployee extends IEmployeeShort {
-    partonymic: string;
+    patronymic: string;
     country: string;
     city: string 
 };

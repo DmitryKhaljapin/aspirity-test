@@ -1,0 +1,15 @@
+.header {
+    @apply flex items-center justify-between mb-8;
+}
+
+.info {
+    @apply grid grid-cols-2 gap-6;
+}
+
+.info-line {
+    @apply mb-6;
+}
+
+.patronymic {
+    @apply col-start-1 col-end-3;
+}

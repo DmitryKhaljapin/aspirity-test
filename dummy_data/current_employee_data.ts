@@ -3,7 +3,7 @@ import { IEmployeeExtended } from "../interfaces";
 export const currentEmployeeData: IEmployeeExtended = {
     surname: 'Иванов',
     name: 'Иван',
-    partonymic: 'Иванович',
+    patronymic: 'Иванович',
     position: 'UI/UX designer',
     country: 'Россия',
     city: 'Красноярск',

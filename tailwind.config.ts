@@ -96,11 +96,17 @@ const config: Config = {
         '4.5': '18px',
         '7.5': '30px',
       },
+      borderWidth: {
+        '1': '1px'
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      gridTemplateColumns: {
+        'header': 'auto 1fr auto auto',
+      }
     },
   },
   plugins: [],

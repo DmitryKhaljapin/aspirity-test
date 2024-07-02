@@ -1,14 +1,14 @@
 .burger {
-    @apply relative w-6 h-6 flex items-center justify-center cursor-pointer;
+    @apply relative w-10 h-10 flex items-center justify-center cursor-pointer;
 }
 
 .closed {
-    @apply absolute mt-2 w-4.5 h-0.5 bg-primary-DEFAUTL rounded-full 
+    @apply absolute w-4.5 h-0.5 bg-primary-DEFAUTL rounded-full 
     before:absolute before:block before:w-4.5 before:h-0.5  before:-top-1.5 before:bg-primary-DEFAUTL before:rounded-full
     after:absolute after:block after:w-4.5 after:h-0.5  after:top-1.5 after:bg-primary-DEFAUTL after:rounded-full;
 }
 
 .opened {
-    @apply absolute mt-2 w-4.5 h-0.5 bg-primary-DEFAUTL rounded-full rotate-45
+    @apply absolute w-4.5 h-0.5 bg-primary-DEFAUTL rounded-full rotate-45
     before:absolute before:block before:w-4.5 before:h-0.5  before:bg-primary-DEFAUTL before:rounded-full before:rotate-90;
 }

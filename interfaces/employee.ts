@@ -7,12 +7,12 @@ export interface IEmployeeShort {
 
 export interface IEmployee extends IEmployeeShort {
     partonymic: string;
+    country: string;
     city: string 
 };
 
 export interface IEmployeeExtended extends IEmployee {
     birthDate: Date;
     employmentDate: Date;
-    country: string;
     email: string; 
 }

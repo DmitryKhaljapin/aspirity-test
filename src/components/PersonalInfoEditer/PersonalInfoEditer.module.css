@@ -1,0 +1,19 @@
+.header {
+    @apply flex justify-between mb-10 items-center;
+}
+
+.info {
+    @apply grid grid-cols-2 gap-6 min-w-[760px];
+}
+
+.input {
+    @apply block w-full h-full focus:outline-none rounded px-3.5 py-2 bg-secondery-bg;
+}
+
+.patronymic {
+    @apply col-start-1 col-end-3;
+}
+
+.button {
+    @apply col-start-1 col-end-3 mt-10;
+}

@@ -11,8 +11,8 @@ export const ModalWindow = ({children,}:ModalWindowProps) => {
         <>
             {modal &&  createPortal(
                 <div className={stlyes.modal} > 
-                    <Card className={stlyes.constent} >
-                   {children}
+                    <Card className={stlyes.content} >
+                        {children}
                     </Card>
                 </div>,
                 modal

@@ -3,5 +3,5 @@
 }
 
 .content {
-    @apply z-20;
+    @apply p-8 z-20;
 }

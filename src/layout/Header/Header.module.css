@@ -1,0 +1,15 @@
+.header {
+    @apply grid grid-cols-header py-6 items-center;
+}
+
+.logo {
+    @apply col-start-1 col-end-2 mr-2;
+}
+
+.tab {
+    @apply col-start-3 col-end-4;
+}
+
+.burger {
+    @apply col-start-4 col-end-5;
+}

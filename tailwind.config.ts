@@ -95,6 +95,7 @@ const config: Config = {
       spacing: {
         '4.5': '18px',
         '7.5': '30px',
+        '13': '52px',
       },
       borderWidth: {
         '1': '1px'
@@ -106,6 +107,7 @@ const config: Config = {
       },
       gridTemplateColumns: {
         'header': 'auto 1fr auto auto',
+        'emplyee-profile-card': 'auto 1fr'
       }
     },
   },

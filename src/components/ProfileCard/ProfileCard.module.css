@@ -1,0 +1,27 @@
+.card {
+    @apply p-10 pb-5;
+}
+
+.info {
+    @apply grid grid-cols-emplyee-profile-card mb-13;
+}
+
+.avatar {
+    @apply col-start-1 col-end-2 font-bold row-start-1 row-end-3;
+}
+
+.surname {
+    @apply col-start-2 col-end-3 font-bold text-3xl leading-3xl ml-12 self-end;
+}
+
+.name {
+    @apply col-start-2 col-end-3 text-3xl leading-3xl ml-12;
+}
+
+.position {
+    @apply col-start-2 col-end-3 text-md leading-lg ml-12 mt-2;
+}
+
+.location {
+    @apply col-start-2 col-end-3 text-md leading-lg ml-12 mt-4;
+}

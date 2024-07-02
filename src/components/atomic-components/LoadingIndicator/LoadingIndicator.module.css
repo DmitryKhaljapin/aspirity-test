@@ -1,0 +1,3 @@
+.indicator {
+    @apply text-[#D77556] font-semibold text-sm leading-md; 
+}

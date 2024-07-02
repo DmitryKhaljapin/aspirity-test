@@ -7,7 +7,7 @@ import cn from 'classnames';
 export const TeamList = ({className, employeesData}: TeamListProps): JSX.Element => {
     return (
         <ul className={cn(className, styles.list)}>
-            {employeesData.slice(0, 7).map(employee => <li key={employee.surname}>
+            {employeesData.slice(0, 7).map(employee => <li key={employee.surname + employee.name}>
                 <Avatar className={styles.avatar} appearance={AvatarAppearance.mid} photoSrc={employee.photoSrc} />
             </li>)}
             {(employeesData.length > 7) && <span className={styles.rest}>+{employeesData.length - 7}</span>}

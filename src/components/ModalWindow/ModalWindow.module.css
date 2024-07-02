@@ -1,0 +1,7 @@
+.modal {
+    @apply absolute flex items-center justify-center top-0 left-0 w-full h-full z-10 bg-[#B0B1B6A0];
+}
+
+.content {
+    @apply z-20;
+}

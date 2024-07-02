@@ -94,6 +94,7 @@ const config: Config = {
     extend: {
       spacing: {
         '4.5': '18px',
+        '5.5': '22px',
         '7.5': '30px',
         '13': '52px',
       },

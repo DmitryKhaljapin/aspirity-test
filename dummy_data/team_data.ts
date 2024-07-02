@@ -54,5 +54,5 @@ export const teamData: IEmployeeShort[] = [
         surname: 'Clark',
         position: 'QA Lead',
         photoSrc: '/img/Sam-Clark.png'
-    }
+    },
 ]

@@ -1,0 +1,11 @@
+.list {
+    @apply flex items-center;
+}
+
+.avatar {
+    @apply border-2 border-solid border-secondery-bg -mr-3.5 ;
+}
+
+.rest {
+    @apply ml-5.5 leading-lg;
+}

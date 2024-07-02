@@ -1,8 +1,8 @@
 import { MainProps } from './Main.props';
-import styles from './Mian.module.css';
+import styles from './Main.module.css';
 
 export const Main = ({children}: MainProps): JSX.Element => {
     return (
-        <main className={styles.mian}>{children}</main>
+        <main className={styles.main}>{children}</main>
     );
 }

@@ -1,0 +1,7 @@
+.profile {
+    @apply grid grid-cols-2 gap-4;
+}
+
+.profile-card {
+    @apply col-start-1 col-end-3;
+}

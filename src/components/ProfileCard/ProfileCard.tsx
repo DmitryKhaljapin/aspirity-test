@@ -1,12 +1,13 @@
 import { ProfileCardProps } from './ProfileCard.props';
 import { Card, Avatar, TransparentButton } from '../atomic-components';
 import styles from './ProfileCard.module.css';
+import cn from 'classnames';
 
 import { AvatarAppearance } from '../atomic-components/Avatar/Avatar.props';
 
-export const ProfileCard = ({employeeData}: ProfileCardProps): JSX.Element => {
+export const ProfileCard = ({className, employeeData}: ProfileCardProps): JSX.Element => {
     return (
-        <Card className={styles.card   }>
+        <Card className={cn(className, styles.card)}>
             <div className={styles.info}>
                 <Avatar className={styles.avatar} appearance={AvatarAppearance.big} photoSrc={employeeData.photoSrc} />
                 <p className={styles.surname}>{employeeData.surname}</p>

@@ -10,7 +10,7 @@ export const ProfileCard = ({employeeData}: ProfileCardProps): JSX.Element => {
             <div className={styles.info}>
                 <Avatar className={styles.avatar} appearance={AvatarAppearance.big} photoSrc={employeeData.photoSrc} />
                 <p className={styles.surname}>{employeeData.surname}</p>
-                <p className={styles.name}>{employeeData.name} {employeeData.partonymic}</p>
+                <p className={styles.name}>{employeeData.name} {employeeData.patronymic}</p>
                 <p className={styles.position}>{employeeData.position}</p>
                 <p className={styles.location}>{employeeData.country}, {employeeData.city}</p>
             </div>

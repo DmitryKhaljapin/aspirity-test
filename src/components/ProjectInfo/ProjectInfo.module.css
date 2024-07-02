@@ -1,0 +1,27 @@
+.header {
+    @apply flex justify-between items-center mb-10;
+}
+
+.info {
+    @apply grid grid-cols-2 gap-y-10 justify-between mb-10; 
+}
+
+.label {
+    @apply leading-lg text-tertiary mb-2;
+}
+
+.value {
+    @apply leading-lg text-primary-DEFAUTL
+}
+
+.responsible {
+    @apply flex items-center;
+}
+
+.date {
+    @apply col-start-1 col-end-3;
+}
+
+.date-value {
+    @apply flex items-center; 
+}

@@ -1,0 +1,23 @@
+.header {
+    @apply flex justify-between items-center mb-10;
+}
+
+.list {
+    @apply min-w-[586px];
+}
+
+.item {
+    @apply grid grid-cols-emplyee-profile-card mb-4;
+}
+
+.avatar {
+    @apply row-start-1 row-end-3 mr-2;
+}
+
+.name {
+    @apply leading-lg;
+}
+
+.position {
+    @apply text-sm leading-md;
+}

@@ -4,7 +4,7 @@ import { Card } from '../atomic-components';
 
 import stlyes from './ModalWindow.module.css';
 
-export const ModulWindow = ({children,}:ModalWindowProps) => {
+export const ModalWindow = ({children,}:ModalWindowProps) => {
     const modal = document.getElementById('modal')
 
     return (

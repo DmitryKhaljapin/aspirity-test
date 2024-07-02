@@ -7,3 +7,4 @@ export * from './ProjectInfo/ProjectInfo';
 export * from './ReturnButtonLine/ReturnButtonLine';
 export * from './TeamList/TeamList';
 export * from './UserTab/UserTab';
+export * from './TeamModalList/TeamModalList'

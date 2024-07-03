@@ -97,18 +97,17 @@ const config: Config = {
         '5.5': '22px',
         '7.5': '30px',
         '13': '52px',
+        '1vw': 'vw'
       },
       borderWidth: {
         '1': '1px'
       },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
       gridTemplateColumns: {
         'header': 'auto 1fr auto auto',
         'emplyee-profile-card': 'auto 1fr'
+      },
+      screens: {
+        '3xl': '1560px',
       }
     },
   },

@@ -15,10 +15,13 @@ export const TeamList = ({className, employeesData}: TeamListProps): JSX.Element
     const list = useRef<HTMLUListElement>(null);
 
     useEffect(() => {
-        setWindowWidth(window.innerWidth);
-        window.addEventListener('resize', () => {
+        function resizeHandler() {
             setWindowWidth(window.innerWidth);
-        });
+        }
+
+        setWindowWidth(window.innerWidth);
+
+        window.addEventListener('resize', resizeHandler);
 
         const listWidth = list.current?.clientWidth;
 
@@ -37,7 +40,9 @@ export const TeamList = ({className, employeesData}: TeamListProps): JSX.Element
             setEmployeesCountLenght(7);
         }
 
-
+        return () => {
+            window.removeEventListener('resize', resizeHandler);
+        }
     }, [windowWindth]); 
 
     return (

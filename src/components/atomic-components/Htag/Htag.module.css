@@ -1,5 +1,5 @@
 .h4 {
-    @apply text-2xl leading-2xl text-primary-DEFAUTL;
+    @apply sm:text-2xl sm:leading-2xl text-md leading-lg text-primary-DEFAUTL;
 }
 
 .h5 {

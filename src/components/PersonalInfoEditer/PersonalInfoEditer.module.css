@@ -3,7 +3,7 @@
 }
 
 .info {
-    @apply grid grid-cols-2 gap-6 min-w-[760px];
+    @apply grid sm:grid-cols-2 grid-cols-1 gap-6 2md:min-w-[760px] ;
 }
 
 .input {
@@ -11,9 +11,9 @@
 }
 
 .patronymic {
-    @apply col-start-1 col-end-3;
+    @apply sm:col-start-1 sm:col-end-3;
 }
 
 .button {
-    @apply col-start-1 col-end-3 mt-10;
+    @apply sm:col-start-1 sm:col-end-3 mt-10;
 }

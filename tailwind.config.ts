@@ -108,6 +108,7 @@ const config: Config = {
       },
       screens: {
         '2sm': '480px',
+        '2md': '876px', 
         '3xl': '1560px',
       }
     },

@@ -1,27 +1,27 @@
 .card {
-    @apply p-10 pb-5;
+    @apply sm:p-10 px-4 sm:pb-5 pb-7 pt-8;
 }
 
 .info {
-    @apply grid grid-cols-emplyee-profile-card mb-13;
+    @apply grid sm:grid-cols-emplyee-profile-card  grid-cols-1 mb-6 sm:mb-13;
 }
 
 .avatar {
-    @apply col-start-1 col-end-2 font-bold row-start-1 row-end-3;
+    @apply mb-4 sm:mb-0 sm:col-start-1 sm:col-end-2 font-bold sm:row-start-1 sm:row-end-3 sm:justify-self-start justify-self-center;
 }
 
 .surname {
-    @apply col-start-2 col-end-3 font-bold text-3xl leading-3xl ml-12 self-end;
+    @apply sm:col-start-2 sm:col-end-3 font-bold 2sm:text-3xl text-xl 2sm:leading-3xl leading-xl sm:ml-12 sm:self-end sm:justify-self-start justify-self-center;
 }
 
 .name {
-    @apply col-start-2 col-end-3 text-3xl leading-3xl ml-12;
+    @apply sm:col-start-2 sm:col-end-3 2sm:text-3xl text-xl 2sm:leading-3xl leading-xl sm:ml-12 sm:justify-self-start justify-self-center;
 }
 
 .position {
-    @apply col-start-2 col-end-3 text-md leading-lg ml-12 mt-2;
+    @apply mt-6 sm:col-start-2 sm:col-end-3 text-md leading-lg sm:ml-12 sm:mt-2 sm:justify-self-start justify-self-center;
 }
 
 .location {
-    @apply col-start-2 col-end-3 text-md leading-lg ml-12 mt-4;
+    @apply sm:col-start-2 sm:col-end-3 text-md leading-lg sm:ml-12 mt-4 sm:justify-self-start justify-self-center;
 }

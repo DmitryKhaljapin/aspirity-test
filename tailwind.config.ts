@@ -107,6 +107,7 @@ const config: Config = {
         'emplyee-profile-card': 'auto 1fr'
       },
       screens: {
+        '2sm': '480px',
         '3xl': '1560px',
       }
     },

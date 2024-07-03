@@ -3,5 +3,5 @@
 }
 
 .h5 {
-    @apply text-xl leading-xl text-primary-DEFAUTL;
+    @apply sm:text-xl text-md sm:leading-xl leading-lg text-primary-DEFAUTL;
 }

@@ -10,8 +10,14 @@ export const ModalWindow = ({children,}:ModalWindowProps) => {
 
     useEffect(() => {
         if (!modal) return;
+
         modal.style.display = 'block';
-        return () => {modal.style.display = 'none'};
+        document.body.style.overflow = 'hidden';
+
+        return () => {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto'
+        };
     }) 
 
     return (

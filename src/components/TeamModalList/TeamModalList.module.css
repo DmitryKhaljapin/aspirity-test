@@ -3,7 +3,7 @@
 }
 
 .list {
-    @apply min-w-[586px];
+    @apply md:min-w-[586px];
 }
 
 .item {

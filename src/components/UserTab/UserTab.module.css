@@ -1,3 +1,3 @@
 .tab {
-    @apply w-20 h-9 flex justify-center items-center border-1 border-solid border-primary-pr rounded-full;
+    @apply w-20 h-9 flex justify-center items-center border-1 border-solid border-primary-pr rounded-full cursor-pointer;
 }

@@ -1,9 +1,9 @@
 .header {
-    @apply flex justify-between items-center mb-10;
+    @apply flex justify-between items-center sm:mb-10 mb-8;
 }
 
 .info {
-    @apply grid grid-cols-2 gap-y-10 justify-between mb-10; 
+    @apply grid sm:grid-cols-2 grid-cols-1 sm:gap-y-10 gap-y-4 justify-between mb-10; 
 }
 
 .label {
@@ -19,7 +19,7 @@
 }
 
 .date {
-    @apply col-start-1 col-end-3;
+    @apply sm:col-start-1 sm:col-end-3;
 }
 
 .date-value {
